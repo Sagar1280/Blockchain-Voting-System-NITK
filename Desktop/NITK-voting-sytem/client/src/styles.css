@@ -1,0 +1,8 @@
+:root { --bg:#0b0b0b; --accent:#ffd400; --card:#111; --muted:#999; }
+body { margin:0; font-family: Inter, system-ui, Arial; background:linear-gradient(180deg,#050505,#0d0d0d); color:#eee; }
+.center { display:flex; align-items:center; justify-content:center; min-height:100vh; }
+.card { background:var(--card); padding:18px; border-radius:12px; box-shadow:0 6px 24px rgba(0,0,0,0.6); width:420px; }
+input { width:100%; padding:8px; margin:6px 0; background:#111; border:1px solid #222; color:#eee; border-radius:6px; }
+button { background:var(--accent); border:none; padding:8px 12px; border-radius:8px; cursor:pointer; }
+.voter-table { width:100%; border-collapse:collapse; margin-top:8px; }
+.voter-table th, .voter-table td { padding:6px 8px; border-bottom:1px solid #222; text-align:left; }
