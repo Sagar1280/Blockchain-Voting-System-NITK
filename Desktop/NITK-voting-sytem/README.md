@@ -1,1 +1,1 @@
-# NITK Voting DApp (Demo)
+# NITK Voting DApp 
