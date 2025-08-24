@@ -37,9 +37,9 @@ export default function Vote({ token, user, web3, contract, apiBase }) {
     <div style={{marginTop:12}}>
       <div>
         <select value={choice} onChange={e=>setChoice(e.target.value)}>
-          <option>Option A</option>
-          <option>Option B</option>
-          <option>Option C</option>
+          <option> ADWIADH </option>
+          <option> GAGAN </option>
+          <option> PRANIL </option>
         </select>
       </div>
       <button onClick={submit} style={{marginTop:8}}>Submit Vote</button>

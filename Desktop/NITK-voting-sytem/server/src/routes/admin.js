@@ -5,9 +5,13 @@ import path from 'path';
 import forge from 'node-forge';
 import auth from '../middleware/auth.js';
 import User from '../models/User.js';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const router = express.Router();
-const ABI = JSON.parse(fs.readFileSync(path.resolve('shared/abi/CollegeVoting.json')));
+const ABI = JSON.parse(fs.readFileSync(path.join(__dirname, '..', '..', '..', 'shared', 'abi', 'CollegeVoting.json')));
 const RPC = process.env.RPC_URL || 'http://127.0.0.1:8545';
 const CONTRACT = process.env.CONTRACT_ADDRESS || '';
 const OWNER_ETH_PRIV = process.env.OWNER_ACCOUNT_PRIVATE_KEY || '';

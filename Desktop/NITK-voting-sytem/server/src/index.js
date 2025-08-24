@@ -5,8 +5,13 @@ import dotenv from 'dotenv';
 import authRoutes from './routes/auth.js';
 import voteRoutes from './routes/vote.js';
 import adminRoutes from './routes/admin.js';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
-dotenv.config();
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+dotenv.config({ path: path.join(__dirname, '..', '.env') });
 const app = express();
 app.use(cors());
 app.use(express.json());

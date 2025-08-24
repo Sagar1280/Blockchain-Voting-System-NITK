@@ -1,6 +1,5 @@
 import Web3 from 'web3';
 import ABI from '../../shared/abi/CollegeVoting.json';
-
 const getWeb3 = () => {
   if (window.ethereum) {
     const web3 = new Web3(window.ethereum);

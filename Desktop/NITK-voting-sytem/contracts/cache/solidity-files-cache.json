@@ -1,0 +1,42 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\sagar\\Desktop\\NITK-voting-sytem\\contracts\\contracts\\CollegeVoting.sol": {
+      "lastModificationDate": 1756056593914,
+      "contentHash": "ae1c56cb72c8cb5be553a0fb0f86adc0",
+      "sourceName": "contracts/CollegeVoting.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "CollegeVoting",
+        "Ownable"
+      ]
+    }
+  }
+}
