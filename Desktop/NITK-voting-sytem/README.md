@@ -33,8 +33,6 @@ Vite: A build tool and development server for fast development.
 
 Web3.js: A library for interacting with the Ethereum blockchain and MetaMask.
 
-Axios: A library for making API requests to the backend server.
-
 JSEncrypt: A library for client-side vote encryption.
 
 Backend
@@ -44,15 +42,10 @@ MongoDB: The database for storing user information and their voting status.
 
 Mongoose: An Object Data Modeling (ODM) library for Node.js to manage MongoDB data.
 
-Bcryptjs: A library for hashing user passwords.
-
-jsonwebtoken: A library for creating and verifying JWTs for user sessions.
-
-node-forge: A library for server-side decryption of votes.
-
 dotenv: A module to load environment variables from a .env file.
 
 Blockchain
+
 Solidity: The language for the CollegeVoting smart contract.
 
 Hardhat: An Ethereum development environment for compiling, deploying, and testing smart contracts.
@@ -112,7 +105,7 @@ Root .env: Create a file named .env in the root directory (alongside contracts a
 
 # Frontend variables
 VITE_RPC_URL=http://127.0.0.1:8545
-VITE_CONTRACT_ADDRESS=0xYourDeployedContractAddress
+VITE_CONTRACT_ADDRESS=0xYourDeployedContractAddress 
 VITE_OWNER_PUBLIC_KEY="-----BEGIN PUBLIC KEY-----\n...\n-----END PUBLIC KEY-----"
 VITE_API_BASE=http://localhost:4000
 Server .env: Create a file named .env in the server directory and add your backend variables:
