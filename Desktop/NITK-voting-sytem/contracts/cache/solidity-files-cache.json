@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "C:\\Users\\sagar\\Desktop\\NITK-voting-sytem\\contracts\\contracts\\CollegeVoting.sol": {
-      "lastModificationDate": 1756056593914,
-      "contentHash": "ae1c56cb72c8cb5be553a0fb0f86adc0",
+      "lastModificationDate": 1756651510168,
+      "contentHash": "515b540412cd139c4081ea5a4f7dfe9a",
       "sourceName": "contracts/CollegeVoting.sol",
       "solcConfig": {
         "version": "0.8.24",

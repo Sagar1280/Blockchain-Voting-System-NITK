@@ -42,11 +42,11 @@ contract CollegeVoting is Ownable {
     function hasVotedFor(bytes32 rollHash) external view returns (bool) {
         return hasVoted[rollHash];
     }
-
+    
     function getAllEncryptedVotes() external view onlyOwner returns (bytes32[] memory, string[] memory) {
         return (rollHashes, encryptedVotes);
     }
-
+    
     function resetElection() external onlyOwner {
         for (uint i = 0; i < rollHashes.length; i++) {
             hasVoted[rollHashes[i]] = false;
